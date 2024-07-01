@@ -1,0 +1,211 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    /* background: url("#") no-repeat center center fixed; */
+    /* background: linear-gradient(to bottom, #DDE6ED, #9DB2BF, #526D82, #27374D); */
+    background-size: 1024px;
+}
+
+.navbar,
+.footer {
+    /* background: linear-gradient(to right, #27374D, #526D82, #9DB2BF, #DDE6ED); */
+    background-color: #607D8B;
+}
+
+.sidebar {
+    background: #0e0e35;
+    color: white;
+    min-height: 100vh;
+}
+
+.navbar {
+    padding: 0.5rem 1rem;
+}
+
+
+.border-custom {
+    margin: 6px;
+    border-radius: 25px;
+    background-color: #ffffff;
+    /* border: 1px solid #000000; */
+    padding: 5px 10px;
+    transition: background-color 3s;
+}
+
+.border-custom:hover,
+.menu-link:hover {
+    background-color: #000000;
+    color: #cecece;
+}
+
+
+.sidebar-sticky {
+    position: sticky;
+    top: 3%;
+}
+
+.menu-link {
+    color: #ffffff;
+    background-color: #171f57;
+    transition: background-color .3s;
+    border-radius: 25px;
+}
+
+.content-area {
+    padding: 20px;
+    /* background: linear-gradient(to bottom, #DDE6ED, #9DB2BF, #526D82, #27374D); */
+}
+
+.table {
+    background-color: #ffffff;
+}
+
+.table thead th {
+    background-color: #000000;
+    color: #ffffff;
+}
+
+.table tbody td {
+    background-color: #ffffff;
+    color: #000000;
+}
+
+.table-hover tbody tr:hover {
+    background-color: #9DB2BF;
+    color: #27374D;
+}
+
+.table th,
+.table td {
+    border-top: 1px solid #ccc;
+    padding: 8px;
+    text-align: left;
+}
+
+.table {
+    width: 100%;
+    margin-top: 20px;
+    border-collapse: collapse;
+}
+
+.header-area {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+    /* İçerikleri kenarlardan biraz uzak tutar */
+}
+
+
+
+/*!!!!!!!!!!!!!!!!!!!
+    modal-start
+ !!!!!!!!!!!!!!!!!!!!*/
+
+.modal {
+    display: none;
+    /* Başlangıçta gizli */
+    position: fixed;
+    /* Sabit konum */
+    z-index: 1;
+    /* Üstte */
+    left: 0;
+    top: 0;
+    width: 100%;
+    /* Tam genişlik */
+    height: 100%;
+    /* Tam yükseklik */
+    overflow: auto;
+    /* Gerektiğinde kaydırma */
+    background-color: rgba(0, 0, 0, 0.411);
+    /* Siyahla şeffaflık */
+}
+
+.modal-content {
+    background-color: #fefefe;
+    margin: 10% auto;
+    /* 10% üstten ve ortalanmış */
+    padding: 20px;
+    border: 1px solid #888;
+    width: 50%;
+    /* %50 genişlik */
+}
+
+.close {
+    color: #000;
+    float: right;
+    font-size: 28px;
+    /* Daha uygun boyut */
+    font-weight: bold;
+
+    position: absolute;
+
+    top: 0;
+
+    right: 0;
+
+    padding: 20px;
+    /* Tıklama alanı */
+    cursor: pointer;
+    /* İmleç stilini değiştir */
+
+}
+
+.close:hover,
+.close:focus {
+    color: #d33;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+/* !!!!!!!!!!!!!!!!!
+        modal-end
+!!!!!!!!!!!!!!!!!!!!*/
+
+
+/*LOGO-start*/
+.LOGO-nav {
+    position: relative;
+    /* text-align: center; */
+    left: 9%;
+}
+
+.LOGO {
+    position: relative;
+    width: 23%;
+
+}
+
+.LOGO-Title {
+    position: relative;
+    font-size: large;
+
+}
+.LOGO-Title:hover{
+    color: #00ff00  ;
+    transition: 10s;
+}
+
+/*LOGO-end*/
+
+
+
+/**/
+/**/
+#svg2{
+    position: relative;
+    left: 35%;
+    background-color:#bababa;
+    width: 500px;
+    height: auto;
+
+}
+.tooth{
+    fill: white;
+    /* fill: red; */
+}
+.tooth:hover{
+    fill: rgba(228, 234, 177, 0.984);
+    /* transition: 5s; */
+
+}
